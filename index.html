@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lesson 9 Form</title>
+  </head>
+
+  <body>
+    <div class="conteiner">
+      <!--                                      Start Header -->
+      <header class="header_box">
+        <nav class="header_nav">
+          <ul class="header_ul">
+            <li class="header_li">Products</li>
+            <li class="header_li">Portfolio</li>
+            <li class="header_li">Services</li>
+            <li class="header_li">About</li>
+          </ul>
+        </nav>
+        <a href="index.html"
+          ><img class="header_logo" src="images/logo.png" alt="Site logo"
+        /></a>
+        <input type="text" name="Search" id="Search" />
+      </header>
+
+      <!--                                 Start Section First -->
+      <section class="section_first">
+        <form class="form_sect_first" action="#">
+          <div class="form_inside_div">
+            <div class="form_inside_div1">
+              <h1 class="header_h1">Create an Account</h1>
+              <h4 class="header_h4">
+                * All fields are required unless otherwise specified
+              </h4>
+              <label class="header_labels" for="Email">Email</label>
+              <input
+                class="header_inputs"
+                type="text"
+                id="Email"
+                name="Email"
+                placeholder="Enter your email"
+              />
+              <label for="Username">Username</label>
+              <input
+                class="header_inputs"
+                type="text"
+                id="Username"
+                name="Username"
+                placeholder="Username"
+              />
+              <label for="Password">Create password</label>
+              <input
+                class="header_inputs"
+                type="password"
+                value="Password"
+                id="Password"
+              />
+            </div>
+            <div class="form_inside_div2">
+              <h4 class="header_h4">
+                By clicking “Continue”, you agree to Terms of Service and
+                Privacy Policy
+              </h4>
+              <button type="submit">Next</button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!--                                    Start Footer -->
+      <footer>
+        <div class="footer_inside_div">
+          <h1 class="footer_h1">CONTACT US</h1>
+          <div class="footer_inputs">
+            <input
+              class="foot_input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+            />
+            <input
+              class="foot_input"
+              type="number"
+              id="number"
+              name="phone number"
+              placeholder="Your phone"
+            />
+          </div>
+          <textarea
+            name="Describe"
+            id="Describe"
+            cols="110"
+            rows="20"
+            placeholder="Describe"
+          ></textarea>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

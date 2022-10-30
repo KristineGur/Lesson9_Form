@@ -1,0 +1,191 @@
+.conteiner {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+}
+
+/*                                           Header */
+.header_box {
+  width: 100%;
+  background-color: #1473e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+.header_logo {
+  width: 13.438rem;
+  height: 4.875rem;
+}
+
+.header_nav {
+  width: 20%;
+}
+
+.header_ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.25rem;
+  transition: all;
+}
+
+.header_li:hover {
+  color: rgb(255, 217, 0);
+  cursor: pointer;
+}
+
+/* id უნიკალურია. რომელიც მხოლოდ ერთი დასახელებით შეიძლება არსებობდეს კოდში. მაგ., Search-ის input-ში გაწერილი id="Search" სხვა შემთხვევაში ვერ იქნება გამოყენებული. id-ის სახელი ისტილება ძიეზით. */
+#Search {
+  border: none;
+  width: 15rem;
+  height: 2rem;
+  border-bottom: 1px solid white;
+  background-color: #1473e6;
+  background-image: url(../images/search-logo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+/* input-ზე ბორდერის მოხსნის დროს ბორდერი ქრება, მაგრამ ველში ჩადგომისას ისევ უჩნდება, ამიტომ საჭიროა ფოკუს აუთლაინ ნანით მეორე ბორდერის მოხსნაც. ფოკუს აუთლაინ ნანი შეგვიძლია რესეტის ფაილშიც ჩავსვათ. */
+#Search:focus {
+  outline: none;
+}
+
+/*                                         Section First */
+.section_first {
+  width: 100%;
+  height: 49.25rem;
+  display: flex;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.form_sect_first {
+  width: 36.5rem;
+  height: 39.125rem;
+  display: flex;
+  background-image: url(../images/Blur.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 5rem;
+  margin-left: 65rem;
+}
+
+.form_inside_div {
+  width: 19rem;
+  margin-top: 2.5rem;
+  margin-left: 5rem;
+}
+
+.form_inside_div1 {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header_h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.header_h4 {
+  font-size: 0.75rem;
+}
+
+.header_labels{
+  font-size: 0.875rem;
+}
+
+.header_inputs {
+  height: 2.188rem;
+  border-radius: 0.3rem;
+  border-color: #707070;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+
+#Password {
+  background-image: url(../images/eye-icon.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 2rem;
+}
+
+.form_inside_div2 {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+button[type="submit"] {
+  background-color: #1473e6;
+  border: none;
+  border-radius: 0.3rem;
+  width: 19rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.7rem;
+}
+
+/*                                                 Footer */
+footer {
+  width: 100%;
+  /* height: 50.438rem; */
+  background-color: rgba(255,139,0,0.8784313725490196 );
+}
+
+.footer_inside_div {
+  width: 60%;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.footer_inputs {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.foot_input {
+  width: 22rem;
+  height: 3rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.foot_input:focus {
+  outline: none;
+}
+
+#Describe{
+  resize: none;
+  border: none;
+}
+
+#Describe:focus {
+  outline: none;
+}
