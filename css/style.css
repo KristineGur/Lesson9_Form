@@ -210,6 +210,7 @@ button[type="submit"] {
   /*                                Section First */
   .section_first {
     background-size:cover;
+    background-position: left;
   }
 
   .form_sect_first {
@@ -227,6 +228,7 @@ button[type="submit"] {
   
   .header_h4 {
     font-size: 0.5rem;
+    color: #1473e6;
   }
   
   #Password {
