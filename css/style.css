@@ -193,11 +193,6 @@ button[type="submit"] {
 
 @media (max-width:480px){
   /*                                Header */
-  .header_box {
-    align-items:flex-start;
-    padding: 1rem;
-  }
-  
   .header_logo {
     width: 8rem;
     height: 3rem;
@@ -209,8 +204,7 @@ button[type="submit"] {
 
   #Search {
     width: 10rem;
-    height: 0;
-    padding-top: 2rem;
+    height: auto;
   }
 
   /*                                Section First */
@@ -271,14 +265,13 @@ button[type="submit"] {
   }
 
   .section2_input {
-    width: 18rem;
+    width: 27rem;
     height: 3rem;
     font-size: 1rem;
-    margin: 0 auto;
   }
 
   #Describe {
-    width: 18rem;
+    width: 27rem;
     height: 15rem;
   }
 }
